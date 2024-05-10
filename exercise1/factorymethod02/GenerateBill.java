@@ -8,8 +8,7 @@ public class GenerateBill {
     public static void main(String[] args) throws IOException {
         GetPlanFactory planFactory = new GetPlanFactory();
 
-        System.out.println("Enter the name of the plan for which the bill will be generated: ");
-        System.out.println("DOMESTICPLAN \nCOMMERCIALPLAN \nINSTITUTIONALPLAN \n" );
+        System.out.println("Enter the name of the plan for which the bill will be generated (DOMESTICPLAN, COMMERCIALPLAN, INSTITUTIONALPLAN): ");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         String planName = br.readLine();
