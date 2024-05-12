@@ -1,8 +1,9 @@
-package exercise2.innerclass;
+package innerclass;
 
 public class Main {
     public static void main(String[] args){
-        ShoppingCart cart = new ShoppingCart("Eliezer Gyan");
+        ShoppingCart cart = new ShoppingCart("Eliezer");
+
         cart.addItem("Laptop", 12000.00, 2);
 
         cart.displayItems();

@@ -1,4 +1,4 @@
-package exercise2.innerclass;
+package innerclass;
 
 
 // Outer class

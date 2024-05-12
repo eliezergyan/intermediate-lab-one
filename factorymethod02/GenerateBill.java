@@ -1,4 +1,4 @@
-package exercise1.factorymethod02;
+package factorymethod02;
 
 import java.io.BufferedReader;
 import java.io.IOException;

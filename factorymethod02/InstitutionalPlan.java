@@ -1,4 +1,4 @@
-package exercise1.factorymethod02;
+package factorymethod02;
 
 public class InstitutionalPlan extends Plan{
     public void getRate(){
